@@ -9,8 +9,7 @@ public class euclid{
         int n = sc.nextInt();
         System.out.println("Enter the second integer (n)");
         int m = sc.nextInt();
-
-       
+        
         if (n > m){
 
         int q = n / m;
@@ -27,6 +26,7 @@ public class euclid{
             System.out.println("r is " + r);
             n = m;
             m = r;
+                    
                 }
          }
 
