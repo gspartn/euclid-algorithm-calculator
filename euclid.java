@@ -1,13 +1,13 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class euclid{
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the greatest common divisor (m)");
+        System.out.println("Enter the greatest integer given (m)");
         int n = sc.nextInt();
-        System.out.println("Enter the second divisor (n)");
+        System.out.println("Enter the second integer (n)");
         int m = sc.nextInt();
 
        
@@ -34,7 +34,7 @@ public class euclid{
             System.out.println("The greatest common divisor (m) needs to be larger than the second divisor! (n)");
             }
 
-        System.out.println("\nThe greatest common divisor GCD is " + n);
+        System.out.println("\nThe greatest common divisor (GCD) is " + n);
 
          }
     }
